@@ -1,0 +1,57 @@
+{
+  "name": "@djeka07/dates",
+  "version": "0.0.2",
+  "private": false,
+  "description": "A utility package for handling dates with dayjs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "./dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "clean": "rm -rf ./dist",
+    "test": "vitest",
+    "lint": "eslint .",
+    "prepublishOnly": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djeka07/dates.git"
+  },
+  "keywords": [
+    "dayjs",
+    "dates"
+  ],
+  "author": "André Ekbom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djeka07/dates/issues"
+  },
+  "homepage": "https://github.com/djeka07/dates#readme",
+  "devDependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@types/node": "^22.7.4",
+    "dayjs": "^1.11.13",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "rollup-preserve-directives": "^1.1.1",
+    "typescript-eslint": "^8.8.0",
+    "vite": "^5.4.8",
+    "vite-plugin-dts": "^4.2.3",
+    "vite-tsconfig-paths": "^4.3.2",
+    "vitest": "^2.1.1"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "dayjs": "^1.11.13"
+  }
+}
