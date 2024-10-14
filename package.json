@@ -1,13 +1,13 @@
 {
   "name": "@djeka07/dates",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "description": "A utility package for handling dates with dayjs",
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/index.cjs",
-  "module": "dist/index.js",
+  "main": "dist/src/index.cjs",
+  "module": "dist/src/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "./dist/**/*"
@@ -50,8 +50,5 @@
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^2.1.1"
   },
-  "dependencies": {},
-  "peerDependencies": {
-    "dayjs": "^1.11.13"
-  }
+  "dependencies": {}
 }

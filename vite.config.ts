@@ -18,18 +18,8 @@ export default defineConfig({
       formats: ['es', 'cjs'],
     },
     rollupOptions: {
-      external: [
-        'dayjs',
-        'dayjs/plugin/localizedFormat',
-        'dayjs/plugin/relativeTime',
-        'dayjs/plugin/isToday',
-        'dayjs/plugin/isYesterday',
-      ],
       output: {
         preserveModules: true,
-        globals: {
-          dayjs: 'dayjs',
-        },
       },
     },
   },
