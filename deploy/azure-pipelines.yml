@@ -14,12 +14,6 @@ variables:
     value: $(token)
   - name: npmToken
     value: $(NPM_TOKEN)
-  - name: accountName
-    value: $(ACCOUNT_NAME)
-  - name: accountKey
-    value: $(ACCOUNT_KEY)
-  - name: containerName
-    value: $(CONTAINER_NAME)
 
 stages:
   - stage: RunTest
